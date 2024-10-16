@@ -1,45 +1,42 @@
-
 #include "video.h"
 //COMPLETAR POR EL ESTUDIANTE
 
 void read_directory(const std::string& name, vector<string>& v)
 {
-    DIR* dirp = opendir(name.c_str());  // Abre dir
-    struct dirent * dp;     // Array dir
-    while ((dp = readdir(dirp)) != NULL) {  // Leer cada fichero
+    DIR* dirp = opendir(name.c_str());
+    struct dirent * dp;
+    while ((dp = readdir(dirp)) != nullptr) {
 
-        v.push_back(dp->d_name);    // Añade nombre al vector
+        v.push_back(dp->d_name);
 
     }
     closedir(dirp);
 }
 
 
-Video::Video(){
-}
+Video::Video(): seq() {}
+
 /**************************************************/
 Video::Video(int n){
-seq.resize(n);
+    seq.resize(n);
 }
 /**************************************************/
 Video::Video(const Video &V){
-seq.resize(V.size());
-for(int i=0; i<V.size(); i++)
-{
-    seq[i]=V[i];
-}
+    seq.resize(V.size());
+    for(int i=0; i<V.size(); i++)
+    {
+        seq[i]=V[i];
+    }
 
 }
 /**************************************************/
 Video::~Video(){}
 /**************************************************/
 Video &Video::operator=(const Video &V){
-seq.resize(V.size());
-for(int i=0; i<V.size(); i++)
-{
-    seq[i]=V[i];
-}
-return *this;
+    if(this != &V) {
+        seq = V.seq;
+    }
+    return *this;
 }
 /**************************************************/
 int Video::size() const{
@@ -55,27 +52,32 @@ const Image &Video::operator[](int foto)const{
 }
 
 void Video::Insertar(int k, const Image &I){
-    seq.insert(seq.begin()+k, I);   // Utilizar iterator que apunte a la posición
+    seq.insert(seq.begin()+k, I);
 
 }
 
 void Video::Borrar(int k){
-    seq.erase(seq.begin() + k);
+    seq.erase(seq.begin()+k);
 }
 
 bool Video::LeerVideo(const string &path){
-    // Obtener lista de archivos con read_directory()
     vector<string> Dir;
     read_directory(path, Dir);
-    // Iterar sobre cada archivo 
-    for (int i = 0; i < Dir.size(); i++)
+    bool leido=false;
+
+    for(int i=0; i<Dir.size(); i++)
     {
         Image aux;
-        if (aux.Load(Dir[i].c_str())) // Si es PGM
+        if(aux.Load(Dir[i].c_str()))
         {
-            seq.push_back(aux); // Añadir al vector
+            seq.push_back(aux);
+            leido = true;
+        }
+        else{
+            leido=false;
         }
     }
+    return leido;
 }
 
 bool Video::EscribirVideo(const string & path, const string &prefijo)const{
@@ -99,7 +101,10 @@ bool Video::EscribirVideo(const string & path, const string &prefijo)const{
     for(int i=0; i<seq.size(); i++)
     {
         string out_path = path + prefijo + to_string(i);
-        seq[i].Save(out_path.c_str());
+        if(!seq[i].Save((out_path.c_str()))) {
+            cout << "Error escribiendo el video" << out_path << endl;
+            exito = false;
+        }
     }
-
+    return exito;
 }
