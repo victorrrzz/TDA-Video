@@ -3,34 +3,10 @@
 #include <iostream>
 #include <cassert>
 
-
 Video Morphing(const Image &I1,const Image &I2,int nframes){
     Video aux;
     if(I1.get_cols()==I2.get_cols() && I1.get_rows()==I2.get_rows())
-    Video aux;
-    if(I1.get_cols()==I2.get_cols() && I1.get_rows()==I2.get_rows())
     {
-        for(int i=0; i<nframes; i++)
-        {
-            float t = (i/ (float)nframes);
-            Image Iaux(I1.get_rows(),I1.get_cols());
-
-            for(int j=0; j< I1.get_rows(); j++)
-            {
-                for(int k=0; k<I1.get_cols(); k++)
-                {
-                    int index = k + j*I1.get_cols();
-                    pixel morphed_pixel=I1.get_pixel(index)*(1-t)+I2.get_pixel(index)*t;
-
-                    Iaux.set_pixel(j,k,morphed_pixel);
-
-                }
-            }
-            aux.Insertar(i,Iaux);
-        }
-        return aux;
-    } else{
-        exit(1);
         for(int i=0; i<nframes; i++)
         {
             float t = (i/ (float)nframes);

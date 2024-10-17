@@ -17,20 +17,12 @@ void read_directory(const std::string& name, vector<string>& v)
 
 Video::Video(): seq() {}
 
-Video::Video(): seq() {}
-
 /**************************************************/
 Video::Video(int n){
-    seq.resize(n);
     seq.resize(n);
 }
 /**************************************************/
 Video::Video(const Video &V){
-    seq.resize(V.size());
-    for(int i=0; i<V.size(); i++)
-    {
-        seq[i]=V[i];
-    }
     seq.resize(V.size());
     for(int i=0; i<V.size(); i++)
     {
@@ -42,10 +34,6 @@ Video::Video(const Video &V){
 Video::~Video(){}
 /**************************************************/
 Video &Video::operator=(const Video &V){
-    if(this != &V) {
-        seq = V.seq;
-    }
-    return *this;
     if(this != &V) {
         seq = V.seq;
     }
@@ -66,12 +54,10 @@ const Image &Video::operator[](int foto)const{
 
 void Video::Insertar(int k, const Image &I){
     seq.insert(seq.begin()+k, I);
-    seq.insert(seq.begin()+k, I);
 
 }
 
 void Video::Borrar(int k){
-    seq.erase(seq.begin()+k);
     seq.erase(seq.begin()+k);
 }
 
@@ -95,7 +81,6 @@ bool Video::LeerVideo(const string &path){
             leido=false;
         }
     }
-    return leido;
     return leido;
 }
 
@@ -124,11 +109,6 @@ bool Video::EscribirVideo(const string & path, const string &prefijo)const{
             cout << "Error escribiendo el video" << out_path << endl;
             exito = false;
         }
-        if(!seq[i].Save((out_path.c_str()))) {
-            cout << "Error escribiendo el video" << out_path << endl;
-            exito = false;
-        }
     }
-    return exito;
     return exito;
 }

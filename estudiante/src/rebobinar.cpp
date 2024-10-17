@@ -2,14 +2,7 @@
 #include "video.h"
 #include <iostream>
 
-
 Video Rebobinar(const Video &V){
-    Video aux;
-    for(int i=V.size(); i>1; i--)
-    {
-        aux.Insertar(V.size()-i,V[i]);
-    }
-    return aux;
     Video aux;
     for(int i=V.size(); i>1; i--)
     {
