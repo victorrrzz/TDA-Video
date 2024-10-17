@@ -63,13 +63,19 @@ void Image::Destroy(){
 
 
 LoadResult Image::LoadFromPGM(const char * file_path){
+    cout << "curr file path: " << file_path << endl;
     if (ReadImageKind(file_path) != IMG_PGM)
+    {
+        cout << "Archivo no pgm" << endl;
         return LoadResult::NOT_PGM;
+    }
 
     pixel * buffer = ReadPGMImage(file_path, rows, cols);
     if (!buffer)
+    {
+        cout << "error ar leer" << endl;
         return LoadResult::READING_ERROR;
-
+    }
     Initialize(rows, cols, buffer);
     return LoadResult::SUCCESS;
 }
