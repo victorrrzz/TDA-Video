@@ -1,16 +1,33 @@
 #include "image.h"
 #include "video.h"
 #include <iostream>
-using namespace std;
-Video Rebobinar(const Video &V){
-Video aux(V.size());
-for(int i=size(); i>1;i--)
-{
-    aux[V.size()-i]=V[i]
-}
 
+Video Rebobinar(const Video &V){
+    Video aux;
+    for(int i=V.size(); i>1; i--)
+    {
+        aux.Insertar(V.size()-i,V[i]);
+    }
+    return aux;
 }
 
 int main(int argc, char * argv[]){
-//RELLENAR POR EL ESTUDIANTE
+    if(argc!=2){
+        cerr << "Numero de argumentos incorrectos. Debe introducir dos argumentos";
+        return 1;
+    }
+    string dir_entrada = argv[0];
+    string dir_salida = argv[1];
+
+    Video v;
+    if(!v.LeerVideo(dir_entrada)){
+        cerr << "Error en la lectura del video";
+        return 1;
+    }
+
+    Video aux = Rebobinar(v);
+    for(int i=0; i<v.size(); i++)
+    {
+
+    }
 }
