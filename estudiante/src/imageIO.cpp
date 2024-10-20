@@ -11,6 +11,8 @@
 #include <imageIO.h>
 
 #include <fstream>
+
+#include <iostream>
 using namespace std;
 
 
@@ -71,23 +73,39 @@ bool ReadHeader (ifstream& f, int& rows, int& cols){
 
 // _____________________________________________________________________________
 
-unsigned char *ReadPGMImage (const char *path, int& rows, int& cols){
-  unsigned char *res=0;
-  rows=0;
-  cols=0;
-  ifstream f(path);
-  
-  if (ReadKind(f) == IMG_PGM){
-    if (ReadHeader(f, rows, cols)){
-      res= new unsigned char[rows*cols];
-      f.read(reinterpret_cast<char *>(res),rows*cols);
-      if (!f){
-        delete[] res;
-        res= 0;
-      }
+unsigned char *ReadPGMImage(const char *path, int& rows, int& cols) {
+    unsigned char *res = nullptr;
+    rows = 0;
+    cols = 0;
+
+    // Open the file in binary mode
+    std::ifstream f(path, std::ios::binary);
+    if (!f.is_open()) {
+        cout << "Error opening file: " << path << endl;
+        return nullptr;
     }
-  }
-  return res;
+
+    // Check if the file is a valid PGM (P5)
+    if (ReadKind(f) == IMG_PGM) {
+        // Read the image dimensions
+        if (ReadHeader(f, rows, cols)) {
+            res = new unsigned char[rows * cols];
+
+            // Read the pixel data in binary
+            f.read(reinterpret_cast<char *>(res), rows * cols);
+
+            // Check if the read was successful
+            if (!f) {
+                cout << "Error reading image data from file: " << path << endl;
+                delete[] res;
+                res = nullptr;
+            }
+        }
+    } else {
+        cout << "File is not a valid PGM (P5) file: " << path << endl;
+    }
+
+    return res;
 }
 
 // _____________________________________________________________________________

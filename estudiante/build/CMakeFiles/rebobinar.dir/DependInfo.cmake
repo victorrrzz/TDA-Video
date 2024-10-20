@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/regal/Desktop/VSCode/Practica 2 TDA video/estudiante/src/rebobinar.cpp" "CMakeFiles/rebobinar.dir/src/rebobinar.cpp.obj" "gcc" "CMakeFiles/rebobinar.dir/src/rebobinar.cpp.obj.d"
-  "C:/Users/regal/Desktop/VSCode/Practica 2 TDA video/estudiante/src/video.cpp" "CMakeFiles/rebobinar.dir/src/video.cpp.obj" "gcc" "CMakeFiles/rebobinar.dir/src/video.cpp.obj.d"
+  "C:/Users/regal/Desktop/VSCode/TDA-Video/estudiante/src/rebobinar.cpp" "CMakeFiles/rebobinar.dir/src/rebobinar.cpp.obj" "gcc" "CMakeFiles/rebobinar.dir/src/rebobinar.cpp.obj.d"
+  "C:/Users/regal/Desktop/VSCode/TDA-Video/estudiante/src/video.cpp" "CMakeFiles/rebobinar.dir/src/video.cpp.obj" "gcc" "CMakeFiles/rebobinar.dir/src/video.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

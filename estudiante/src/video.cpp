@@ -1,12 +1,20 @@
 #include "video.h"
+#include <filesystem>
 //COMPLETAR POR EL ESTUDIANTE
 
 void read_directory(const std::string& name, vector<string>& v)
 {
     DIR* dirp = opendir(name.c_str());
+    if (dirp == nullptr)
+    {
+        cerr << "Directorio no existe";
+        return;
+    }
+    
     struct dirent * dp;
     while ((dp = readdir(dirp)) != nullptr) {
-        if (dp->d_name)
+        if (dp->d_name[0] == '.')
+            continue;
         v.push_back(dp->d_name);
         cout << "read_dir añadiendo archivo: " <<  dp->d_name << endl;
 
@@ -66,18 +74,20 @@ bool Video::LeerVideo(const string &path){
     cout << "video path: " << path << endl;
     read_directory(path, Dir);
     bool leido=true;
-    cout << "Dir size" << Dir.size() << endl;
+    cout << "Dir size: " << Dir.size() << endl;
 
-    for(int i=2; i<Dir.size()-1 && leido==true; i++)
+    for(int i=0; i<Dir.size() && leido==true; i++)
     {
         Image aux;
-        cout << "antes Load(): " << Dir[i].c_str() << endl;
-        if(aux.Load(Dir[i].c_str()))
+        std::filesystem::path fullpath = std::filesystem::path(path) / Dir[i];
+        cout << "antes Load(): " << fullpath << endl;
+        if(aux.Load(fullpath.string().c_str()))
         {
             seq.push_back(aux);
+            cout << "imagen " << Dir[i] << " añadida" << endl;
         }
         else{
-            cout << "Error en fichero: " << Dir[i].c_str() << endl;
+            cout << "Error en fichero: " << fullpath << endl;
             leido=false;
         }
     }
@@ -104,7 +114,7 @@ bool Video::EscribirVideo(const string & path, const string &prefijo)const{
 
     for(int i=0; i<seq.size(); i++)
     {
-        string out_path = path + prefijo + to_string(i);
+        string out_path = path + prefijo + to_string(i) + ".pgm";
         if(!seq[i].Save((out_path.c_str()))) {
             cout << "Error escribiendo el video" << out_path << endl;
             exito = false;

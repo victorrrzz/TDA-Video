@@ -52,10 +52,10 @@ RM = C:\cmake-3.31.0-rc1-windows-x86_64\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\regal\Desktop\VSCode\Practica 2 TDA video\estudiante"
+CMAKE_SOURCE_DIR = C:\Users\regal\Desktop\VSCode\TDA-Video\estudiante
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\regal\Desktop\VSCode\Practica 2 TDA video\estudiante\build"
+CMAKE_BINARY_DIR = C:\Users\regal\Desktop\VSCode\TDA-Video\estudiante\build
 
 # Utility rule file for doc_doxygen.
 
@@ -66,8 +66,8 @@ include CMakeFiles/doc_doxygen.dir/compiler_depend.make
 include CMakeFiles/doc_doxygen.dir/progress.make
 
 CMakeFiles/doc_doxygen:
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="C:\Users\regal\Desktop\VSCode\Practica 2 TDA video\estudiante\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Generating API documentation with Doxygen"
-	cd /d C:\Users\regal\Desktop\VSCode\PRACTI~1\ESTUDI~1 && "C:\Program Files\doxygen\bin\doxygen.exe" "C:/Users/regal/Desktop/VSCode/Practica 2 TDA video/estudiante/build/Doxyfile"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\regal\Desktop\VSCode\TDA-Video\estudiante\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating API documentation with Doxygen"
+	cd /d C:\Users\regal\Desktop\VSCode\TDA-Video\estudiante && "C:\Program Files\doxygen\bin\doxygen.exe" C:/Users/regal/Desktop/VSCode/TDA-Video/estudiante/build/Doxyfile
 
 CMakeFiles/doc_doxygen.dir/codegen:
 .PHONY : CMakeFiles/doc_doxygen.dir/codegen
@@ -85,6 +85,6 @@ CMakeFiles/doc_doxygen.dir/clean:
 .PHONY : CMakeFiles/doc_doxygen.dir/clean
 
 CMakeFiles/doc_doxygen.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\regal\Desktop\VSCode\Practica 2 TDA video\estudiante" "C:\Users\regal\Desktop\VSCode\Practica 2 TDA video\estudiante" "C:\Users\regal\Desktop\VSCode\Practica 2 TDA video\estudiante\build" "C:\Users\regal\Desktop\VSCode\Practica 2 TDA video\estudiante\build" "C:\Users\regal\Desktop\VSCode\Practica 2 TDA video\estudiante\build\CMakeFiles\doc_doxygen.dir\DependInfo.cmake" "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\regal\Desktop\VSCode\TDA-Video\estudiante C:\Users\regal\Desktop\VSCode\TDA-Video\estudiante C:\Users\regal\Desktop\VSCode\TDA-Video\estudiante\build C:\Users\regal\Desktop\VSCode\TDA-Video\estudiante\build C:\Users\regal\Desktop\VSCode\TDA-Video\estudiante\build\CMakeFiles\doc_doxygen.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/doc_doxygen.dir/depend
 

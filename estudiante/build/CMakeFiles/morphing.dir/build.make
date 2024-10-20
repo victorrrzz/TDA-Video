@@ -52,10 +52,10 @@ RM = C:\cmake-3.31.0-rc1-windows-x86_64\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\regal\Desktop\VSCode\Practica 2 TDA video\estudiante"
+CMAKE_SOURCE_DIR = C:\Users\regal\Desktop\VSCode\TDA-Video\estudiante
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\regal\Desktop\VSCode\Practica 2 TDA video\estudiante\build"
+CMAKE_BINARY_DIR = C:\Users\regal\Desktop\VSCode\TDA-Video\estudiante\build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/morphing.dir/depend.make
@@ -73,33 +73,33 @@ CMakeFiles/morphing.dir/codegen:
 
 CMakeFiles/morphing.dir/src/morphing.cpp.obj: CMakeFiles/morphing.dir/flags.make
 CMakeFiles/morphing.dir/src/morphing.cpp.obj: CMakeFiles/morphing.dir/includes_CXX.rsp
-CMakeFiles/morphing.dir/src/morphing.cpp.obj: C:/Users/regal/Desktop/VSCode/Practica\ 2\ TDA\ video/estudiante/src/morphing.cpp
+CMakeFiles/morphing.dir/src/morphing.cpp.obj: C:/Users/regal/Desktop/VSCode/TDA-Video/estudiante/src/morphing.cpp
 CMakeFiles/morphing.dir/src/morphing.cpp.obj: CMakeFiles/morphing.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\regal\Desktop\VSCode\Practica 2 TDA video\estudiante\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/morphing.dir/src/morphing.cpp.obj"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/morphing.dir/src/morphing.cpp.obj -MF CMakeFiles\morphing.dir\src\morphing.cpp.obj.d -o CMakeFiles\morphing.dir\src\morphing.cpp.obj -c "C:\Users\regal\Desktop\VSCode\Practica 2 TDA video\estudiante\src\morphing.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\regal\Desktop\VSCode\TDA-Video\estudiante\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/morphing.dir/src/morphing.cpp.obj"
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/morphing.dir/src/morphing.cpp.obj -MF CMakeFiles\morphing.dir\src\morphing.cpp.obj.d -o CMakeFiles\morphing.dir\src\morphing.cpp.obj -c C:\Users\regal\Desktop\VSCode\TDA-Video\estudiante\src\morphing.cpp
 
 CMakeFiles/morphing.dir/src/morphing.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/morphing.dir/src/morphing.cpp.i"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\regal\Desktop\VSCode\Practica 2 TDA video\estudiante\src\morphing.cpp" > CMakeFiles\morphing.dir\src\morphing.cpp.i
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\regal\Desktop\VSCode\TDA-Video\estudiante\src\morphing.cpp > CMakeFiles\morphing.dir\src\morphing.cpp.i
 
 CMakeFiles/morphing.dir/src/morphing.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/morphing.dir/src/morphing.cpp.s"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\regal\Desktop\VSCode\Practica 2 TDA video\estudiante\src\morphing.cpp" -o CMakeFiles\morphing.dir\src\morphing.cpp.s
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\regal\Desktop\VSCode\TDA-Video\estudiante\src\morphing.cpp -o CMakeFiles\morphing.dir\src\morphing.cpp.s
 
 CMakeFiles/morphing.dir/src/video.cpp.obj: CMakeFiles/morphing.dir/flags.make
 CMakeFiles/morphing.dir/src/video.cpp.obj: CMakeFiles/morphing.dir/includes_CXX.rsp
-CMakeFiles/morphing.dir/src/video.cpp.obj: C:/Users/regal/Desktop/VSCode/Practica\ 2\ TDA\ video/estudiante/src/video.cpp
+CMakeFiles/morphing.dir/src/video.cpp.obj: C:/Users/regal/Desktop/VSCode/TDA-Video/estudiante/src/video.cpp
 CMakeFiles/morphing.dir/src/video.cpp.obj: CMakeFiles/morphing.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\regal\Desktop\VSCode\Practica 2 TDA video\estudiante\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/morphing.dir/src/video.cpp.obj"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/morphing.dir/src/video.cpp.obj -MF CMakeFiles\morphing.dir\src\video.cpp.obj.d -o CMakeFiles\morphing.dir\src\video.cpp.obj -c "C:\Users\regal\Desktop\VSCode\Practica 2 TDA video\estudiante\src\video.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\regal\Desktop\VSCode\TDA-Video\estudiante\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/morphing.dir/src/video.cpp.obj"
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/morphing.dir/src/video.cpp.obj -MF CMakeFiles\morphing.dir\src\video.cpp.obj.d -o CMakeFiles\morphing.dir\src\video.cpp.obj -c C:\Users\regal\Desktop\VSCode\TDA-Video\estudiante\src\video.cpp
 
 CMakeFiles/morphing.dir/src/video.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/morphing.dir/src/video.cpp.i"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\regal\Desktop\VSCode\Practica 2 TDA video\estudiante\src\video.cpp" > CMakeFiles\morphing.dir\src\video.cpp.i
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\regal\Desktop\VSCode\TDA-Video\estudiante\src\video.cpp > CMakeFiles\morphing.dir\src\video.cpp.i
 
 CMakeFiles/morphing.dir/src/video.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/morphing.dir/src/video.cpp.s"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\regal\Desktop\VSCode\Practica 2 TDA video\estudiante\src\video.cpp" -o CMakeFiles\morphing.dir\src\video.cpp.s
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\regal\Desktop\VSCode\TDA-Video\estudiante\src\video.cpp -o CMakeFiles\morphing.dir\src\video.cpp.s
 
 # Object files for target morphing
 morphing_OBJECTS = \
@@ -116,7 +116,7 @@ bin/morphing.exe: libimage.a
 bin/morphing.exe: CMakeFiles/morphing.dir/linkLibs.rsp
 bin/morphing.exe: CMakeFiles/morphing.dir/objects1.rsp
 bin/morphing.exe: CMakeFiles/morphing.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="C:\Users\regal\Desktop\VSCode\Practica 2 TDA video\estudiante\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable bin\morphing.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\regal\Desktop\VSCode\TDA-Video\estudiante\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable bin\morphing.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\morphing.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -128,6 +128,6 @@ CMakeFiles/morphing.dir/clean:
 .PHONY : CMakeFiles/morphing.dir/clean
 
 CMakeFiles/morphing.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\regal\Desktop\VSCode\Practica 2 TDA video\estudiante" "C:\Users\regal\Desktop\VSCode\Practica 2 TDA video\estudiante" "C:\Users\regal\Desktop\VSCode\Practica 2 TDA video\estudiante\build" "C:\Users\regal\Desktop\VSCode\Practica 2 TDA video\estudiante\build" "C:\Users\regal\Desktop\VSCode\Practica 2 TDA video\estudiante\build\CMakeFiles\morphing.dir\DependInfo.cmake" "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\regal\Desktop\VSCode\TDA-Video\estudiante C:\Users\regal\Desktop\VSCode\TDA-Video\estudiante C:\Users\regal\Desktop\VSCode\TDA-Video\estudiante\build C:\Users\regal\Desktop\VSCode\TDA-Video\estudiante\build C:\Users\regal\Desktop\VSCode\TDA-Video\estudiante\build\CMakeFiles\morphing.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/morphing.dir/depend
 

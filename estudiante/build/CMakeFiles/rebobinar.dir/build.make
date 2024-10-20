@@ -52,10 +52,10 @@ RM = C:\cmake-3.31.0-rc1-windows-x86_64\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\regal\Desktop\VSCode\Practica 2 TDA video\estudiante"
+CMAKE_SOURCE_DIR = C:\Users\regal\Desktop\VSCode\TDA-Video\estudiante
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\regal\Desktop\VSCode\Practica 2 TDA video\estudiante\build"
+CMAKE_BINARY_DIR = C:\Users\regal\Desktop\VSCode\TDA-Video\estudiante\build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/rebobinar.dir/depend.make
@@ -73,33 +73,33 @@ CMakeFiles/rebobinar.dir/codegen:
 
 CMakeFiles/rebobinar.dir/src/rebobinar.cpp.obj: CMakeFiles/rebobinar.dir/flags.make
 CMakeFiles/rebobinar.dir/src/rebobinar.cpp.obj: CMakeFiles/rebobinar.dir/includes_CXX.rsp
-CMakeFiles/rebobinar.dir/src/rebobinar.cpp.obj: C:/Users/regal/Desktop/VSCode/Practica\ 2\ TDA\ video/estudiante/src/rebobinar.cpp
+CMakeFiles/rebobinar.dir/src/rebobinar.cpp.obj: C:/Users/regal/Desktop/VSCode/TDA-Video/estudiante/src/rebobinar.cpp
 CMakeFiles/rebobinar.dir/src/rebobinar.cpp.obj: CMakeFiles/rebobinar.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\regal\Desktop\VSCode\Practica 2 TDA video\estudiante\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/rebobinar.dir/src/rebobinar.cpp.obj"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/rebobinar.dir/src/rebobinar.cpp.obj -MF CMakeFiles\rebobinar.dir\src\rebobinar.cpp.obj.d -o CMakeFiles\rebobinar.dir\src\rebobinar.cpp.obj -c "C:\Users\regal\Desktop\VSCode\Practica 2 TDA video\estudiante\src\rebobinar.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\regal\Desktop\VSCode\TDA-Video\estudiante\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/rebobinar.dir/src/rebobinar.cpp.obj"
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/rebobinar.dir/src/rebobinar.cpp.obj -MF CMakeFiles\rebobinar.dir\src\rebobinar.cpp.obj.d -o CMakeFiles\rebobinar.dir\src\rebobinar.cpp.obj -c C:\Users\regal\Desktop\VSCode\TDA-Video\estudiante\src\rebobinar.cpp
 
 CMakeFiles/rebobinar.dir/src/rebobinar.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/rebobinar.dir/src/rebobinar.cpp.i"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\regal\Desktop\VSCode\Practica 2 TDA video\estudiante\src\rebobinar.cpp" > CMakeFiles\rebobinar.dir\src\rebobinar.cpp.i
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\regal\Desktop\VSCode\TDA-Video\estudiante\src\rebobinar.cpp > CMakeFiles\rebobinar.dir\src\rebobinar.cpp.i
 
 CMakeFiles/rebobinar.dir/src/rebobinar.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/rebobinar.dir/src/rebobinar.cpp.s"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\regal\Desktop\VSCode\Practica 2 TDA video\estudiante\src\rebobinar.cpp" -o CMakeFiles\rebobinar.dir\src\rebobinar.cpp.s
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\regal\Desktop\VSCode\TDA-Video\estudiante\src\rebobinar.cpp -o CMakeFiles\rebobinar.dir\src\rebobinar.cpp.s
 
 CMakeFiles/rebobinar.dir/src/video.cpp.obj: CMakeFiles/rebobinar.dir/flags.make
 CMakeFiles/rebobinar.dir/src/video.cpp.obj: CMakeFiles/rebobinar.dir/includes_CXX.rsp
-CMakeFiles/rebobinar.dir/src/video.cpp.obj: C:/Users/regal/Desktop/VSCode/Practica\ 2\ TDA\ video/estudiante/src/video.cpp
+CMakeFiles/rebobinar.dir/src/video.cpp.obj: C:/Users/regal/Desktop/VSCode/TDA-Video/estudiante/src/video.cpp
 CMakeFiles/rebobinar.dir/src/video.cpp.obj: CMakeFiles/rebobinar.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\regal\Desktop\VSCode\Practica 2 TDA video\estudiante\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/rebobinar.dir/src/video.cpp.obj"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/rebobinar.dir/src/video.cpp.obj -MF CMakeFiles\rebobinar.dir\src\video.cpp.obj.d -o CMakeFiles\rebobinar.dir\src\video.cpp.obj -c "C:\Users\regal\Desktop\VSCode\Practica 2 TDA video\estudiante\src\video.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\regal\Desktop\VSCode\TDA-Video\estudiante\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/rebobinar.dir/src/video.cpp.obj"
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/rebobinar.dir/src/video.cpp.obj -MF CMakeFiles\rebobinar.dir\src\video.cpp.obj.d -o CMakeFiles\rebobinar.dir\src\video.cpp.obj -c C:\Users\regal\Desktop\VSCode\TDA-Video\estudiante\src\video.cpp
 
 CMakeFiles/rebobinar.dir/src/video.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/rebobinar.dir/src/video.cpp.i"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\regal\Desktop\VSCode\Practica 2 TDA video\estudiante\src\video.cpp" > CMakeFiles\rebobinar.dir\src\video.cpp.i
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\regal\Desktop\VSCode\TDA-Video\estudiante\src\video.cpp > CMakeFiles\rebobinar.dir\src\video.cpp.i
 
 CMakeFiles/rebobinar.dir/src/video.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/rebobinar.dir/src/video.cpp.s"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\regal\Desktop\VSCode\Practica 2 TDA video\estudiante\src\video.cpp" -o CMakeFiles\rebobinar.dir\src\video.cpp.s
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\regal\Desktop\VSCode\TDA-Video\estudiante\src\video.cpp -o CMakeFiles\rebobinar.dir\src\video.cpp.s
 
 # Object files for target rebobinar
 rebobinar_OBJECTS = \
@@ -116,7 +116,7 @@ bin/rebobinar.exe: libimage.a
 bin/rebobinar.exe: CMakeFiles/rebobinar.dir/linkLibs.rsp
 bin/rebobinar.exe: CMakeFiles/rebobinar.dir/objects1.rsp
 bin/rebobinar.exe: CMakeFiles/rebobinar.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="C:\Users\regal\Desktop\VSCode\Practica 2 TDA video\estudiante\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable bin\rebobinar.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\regal\Desktop\VSCode\TDA-Video\estudiante\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable bin\rebobinar.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\rebobinar.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -128,6 +128,6 @@ CMakeFiles/rebobinar.dir/clean:
 .PHONY : CMakeFiles/rebobinar.dir/clean
 
 CMakeFiles/rebobinar.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\regal\Desktop\VSCode\Practica 2 TDA video\estudiante" "C:\Users\regal\Desktop\VSCode\Practica 2 TDA video\estudiante" "C:\Users\regal\Desktop\VSCode\Practica 2 TDA video\estudiante\build" "C:\Users\regal\Desktop\VSCode\Practica 2 TDA video\estudiante\build" "C:\Users\regal\Desktop\VSCode\Practica 2 TDA video\estudiante\build\CMakeFiles\rebobinar.dir\DependInfo.cmake" "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\regal\Desktop\VSCode\TDA-Video\estudiante C:\Users\regal\Desktop\VSCode\TDA-Video\estudiante C:\Users\regal\Desktop\VSCode\TDA-Video\estudiante\build C:\Users\regal\Desktop\VSCode\TDA-Video\estudiante\build C:\Users\regal\Desktop\VSCode\TDA-Video\estudiante\build\CMakeFiles\rebobinar.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/rebobinar.dir/depend
 

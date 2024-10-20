@@ -52,10 +52,10 @@ RM = C:\cmake-3.31.0-rc1-windows-x86_64\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\regal\Desktop\VSCode\Practica 2 TDA video\estudiante"
+CMAKE_SOURCE_DIR = C:\Users\regal\Desktop\VSCode\TDA-Video\estudiante
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\regal\Desktop\VSCode\Practica 2 TDA video\estudiante\build"
+CMAKE_BINARY_DIR = C:\Users\regal\Desktop\VSCode\TDA-Video\estudiante\build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/image.dir/depend.make
@@ -73,33 +73,33 @@ CMakeFiles/image.dir/codegen:
 
 CMakeFiles/image.dir/src/image.cpp.obj: CMakeFiles/image.dir/flags.make
 CMakeFiles/image.dir/src/image.cpp.obj: CMakeFiles/image.dir/includes_CXX.rsp
-CMakeFiles/image.dir/src/image.cpp.obj: C:/Users/regal/Desktop/VSCode/Practica\ 2\ TDA\ video/estudiante/src/image.cpp
+CMakeFiles/image.dir/src/image.cpp.obj: C:/Users/regal/Desktop/VSCode/TDA-Video/estudiante/src/image.cpp
 CMakeFiles/image.dir/src/image.cpp.obj: CMakeFiles/image.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\regal\Desktop\VSCode\Practica 2 TDA video\estudiante\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/image.dir/src/image.cpp.obj"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/image.dir/src/image.cpp.obj -MF CMakeFiles\image.dir\src\image.cpp.obj.d -o CMakeFiles\image.dir\src\image.cpp.obj -c "C:\Users\regal\Desktop\VSCode\Practica 2 TDA video\estudiante\src\image.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\regal\Desktop\VSCode\TDA-Video\estudiante\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/image.dir/src/image.cpp.obj"
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/image.dir/src/image.cpp.obj -MF CMakeFiles\image.dir\src\image.cpp.obj.d -o CMakeFiles\image.dir\src\image.cpp.obj -c C:\Users\regal\Desktop\VSCode\TDA-Video\estudiante\src\image.cpp
 
 CMakeFiles/image.dir/src/image.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/image.dir/src/image.cpp.i"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\regal\Desktop\VSCode\Practica 2 TDA video\estudiante\src\image.cpp" > CMakeFiles\image.dir\src\image.cpp.i
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\regal\Desktop\VSCode\TDA-Video\estudiante\src\image.cpp > CMakeFiles\image.dir\src\image.cpp.i
 
 CMakeFiles/image.dir/src/image.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/image.dir/src/image.cpp.s"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\regal\Desktop\VSCode\Practica 2 TDA video\estudiante\src\image.cpp" -o CMakeFiles\image.dir\src\image.cpp.s
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\regal\Desktop\VSCode\TDA-Video\estudiante\src\image.cpp -o CMakeFiles\image.dir\src\image.cpp.s
 
 CMakeFiles/image.dir/src/imageIO.cpp.obj: CMakeFiles/image.dir/flags.make
 CMakeFiles/image.dir/src/imageIO.cpp.obj: CMakeFiles/image.dir/includes_CXX.rsp
-CMakeFiles/image.dir/src/imageIO.cpp.obj: C:/Users/regal/Desktop/VSCode/Practica\ 2\ TDA\ video/estudiante/src/imageIO.cpp
+CMakeFiles/image.dir/src/imageIO.cpp.obj: C:/Users/regal/Desktop/VSCode/TDA-Video/estudiante/src/imageIO.cpp
 CMakeFiles/image.dir/src/imageIO.cpp.obj: CMakeFiles/image.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\regal\Desktop\VSCode\Practica 2 TDA video\estudiante\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/image.dir/src/imageIO.cpp.obj"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/image.dir/src/imageIO.cpp.obj -MF CMakeFiles\image.dir\src\imageIO.cpp.obj.d -o CMakeFiles\image.dir\src\imageIO.cpp.obj -c "C:\Users\regal\Desktop\VSCode\Practica 2 TDA video\estudiante\src\imageIO.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\regal\Desktop\VSCode\TDA-Video\estudiante\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/image.dir/src/imageIO.cpp.obj"
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/image.dir/src/imageIO.cpp.obj -MF CMakeFiles\image.dir\src\imageIO.cpp.obj.d -o CMakeFiles\image.dir\src\imageIO.cpp.obj -c C:\Users\regal\Desktop\VSCode\TDA-Video\estudiante\src\imageIO.cpp
 
 CMakeFiles/image.dir/src/imageIO.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/image.dir/src/imageIO.cpp.i"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\regal\Desktop\VSCode\Practica 2 TDA video\estudiante\src\imageIO.cpp" > CMakeFiles\image.dir\src\imageIO.cpp.i
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\regal\Desktop\VSCode\TDA-Video\estudiante\src\imageIO.cpp > CMakeFiles\image.dir\src\imageIO.cpp.i
 
 CMakeFiles/image.dir/src/imageIO.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/image.dir/src/imageIO.cpp.s"
-	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\regal\Desktop\VSCode\Practica 2 TDA video\estudiante\src\imageIO.cpp" -o CMakeFiles\image.dir\src\imageIO.cpp.s
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\regal\Desktop\VSCode\TDA-Video\estudiante\src\imageIO.cpp -o CMakeFiles\image.dir\src\imageIO.cpp.s
 
 # Object files for target image
 image_OBJECTS = \
@@ -113,7 +113,7 @@ libimage.a: CMakeFiles/image.dir/src/image.cpp.obj
 libimage.a: CMakeFiles/image.dir/src/imageIO.cpp.obj
 libimage.a: CMakeFiles/image.dir/build.make
 libimage.a: CMakeFiles/image.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="C:\Users\regal\Desktop\VSCode\Practica 2 TDA video\estudiante\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libimage.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\regal\Desktop\VSCode\TDA-Video\estudiante\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libimage.a"
 	$(CMAKE_COMMAND) -P CMakeFiles\image.dir\cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\image.dir\link.txt --verbose=$(VERBOSE)
 
@@ -126,6 +126,6 @@ CMakeFiles/image.dir/clean:
 .PHONY : CMakeFiles/image.dir/clean
 
 CMakeFiles/image.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\regal\Desktop\VSCode\Practica 2 TDA video\estudiante" "C:\Users\regal\Desktop\VSCode\Practica 2 TDA video\estudiante" "C:\Users\regal\Desktop\VSCode\Practica 2 TDA video\estudiante\build" "C:\Users\regal\Desktop\VSCode\Practica 2 TDA video\estudiante\build" "C:\Users\regal\Desktop\VSCode\Practica 2 TDA video\estudiante\build\CMakeFiles\image.dir\DependInfo.cmake" "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\regal\Desktop\VSCode\TDA-Video\estudiante C:\Users\regal\Desktop\VSCode\TDA-Video\estudiante C:\Users\regal\Desktop\VSCode\TDA-Video\estudiante\build C:\Users\regal\Desktop\VSCode\TDA-Video\estudiante\build C:\Users\regal\Desktop\VSCode\TDA-Video\estudiante\build\CMakeFiles\image.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/image.dir/depend
 

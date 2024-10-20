@@ -5,7 +5,7 @@ retardo de 2segundos entre cara y cara.
 **/
 
 #include <QApplication>
-
+#include <QtCore/Qt>
 #include "tablerografico.h"
 #include <string>
 #include <QTime> //delay
@@ -30,7 +30,7 @@ int main(int argc, char *argv[]){
  //siempre se pone para poder usar el entorno grafico
  QApplication a(argc, argv);
  if (argc!=2){
-   std::cout<<"EL directorio donde estan las imagenes"<<endl;
+   std::cout << "El directorio donde estan las imagenes" << Qt::endl;
    return 0;
  }
  
@@ -48,7 +48,7 @@ int main(int argc, char *argv[]){
   
  for (auto &a : sorted_by_name){
  	std::cout<<"Imagen "<<a<<std::endl;
- 	tg->putImagen(0,0,a.c_str());	
+ 	tg->putImagen(0,0,a.string().c_str());	
  	delay(50);
  } 
 

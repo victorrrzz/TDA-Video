@@ -1,6 +1,6 @@
 PROJECT_NAME           = "Práctica 1. Imágenes"
-OUTPUT_DIRECTORY       = C:/Users/regal/Desktop/VSCode/Practica 2 TDA video/estudiante/build/doc_doxygen/
-INPUT                  = C:/Users/regal/Desktop/VSCode/Practica 2 TDA video/estudiante/.//include C:/Users/regal/Desktop/VSCode/Practica 2 TDA video/estudiante/.//src C:/Users/regal/Desktop/VSCode/Practica 2 TDA video/estudiante/.//doc
+OUTPUT_DIRECTORY       = C:/Users/regal/Desktop/VSCode/TDA-Video/estudiante/build/doc_doxygen/
+INPUT                  = C:/Users/regal/Desktop/VSCode/TDA-Video/estudiante/.//include C:/Users/regal/Desktop/VSCode/TDA-Video/estudiante/.//src C:/Users/regal/Desktop/VSCode/TDA-Video/estudiante/.//doc
 GENERATE_LATEX         = NO
-IMAGE_PATH             = C:/Users/regal/Desktop/VSCode/Practica 2 TDA video/estudiante/.//doc
+IMAGE_PATH             = C:/Users/regal/Desktop/VSCode/TDA-Video/estudiante/.//doc
 EXTRACT_PRIVATE        = NO

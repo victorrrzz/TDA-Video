@@ -52,10 +52,10 @@ RM = C:\cmake-3.31.0-rc1-windows-x86_64\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\regal\Desktop\VSCode\Practica 2 TDA video\estudiante"
+CMAKE_SOURCE_DIR = C:\Users\regal\Desktop\VSCode\TDA-Video\estudiante
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\regal\Desktop\VSCode\Practica 2 TDA video\estudiante\build"
+CMAKE_BINARY_DIR = C:\Users\regal\Desktop\VSCode\TDA-Video\estudiante\build
 
 # Utility rule file for mrproper.
 
@@ -66,16 +66,16 @@ include CMakeFiles/mrproper.dir/compiler_depend.make
 include CMakeFiles/mrproper.dir/progress.make
 
 CMakeFiles/mrproper:
-	cd /d C:\Users\regal\Desktop\VSCode\PRACTI~1\ESTUDI~1 && C:\cmake-3.31.0-rc1-windows-x86_64\bin\cmake.exe -E remove_directory "C:/Users/regal/Desktop/VSCode/Practica 2 TDA video/estudiante/build/zip"
-	cd /d C:\Users\regal\Desktop\VSCode\PRACTI~1\ESTUDI~1 && C:\cmake-3.31.0-rc1-windows-x86_64\bin\cmake.exe -E remove_directory "C:/Users/regal/Desktop/VSCode/Practica 2 TDA video/estudiante/build/bin"
-	cd /d C:\Users\regal\Desktop\VSCode\PRACTI~1\ESTUDI~1 && C:\cmake-3.31.0-rc1-windows-x86_64\bin\cmake.exe -E remove_directory CMakeFiles
-	cd /d C:\Users\regal\Desktop\VSCode\PRACTI~1\ESTUDI~1 && C:\cmake-3.31.0-rc1-windows-x86_64\bin\cmake.exe -E remove CMakeCache.txt
-	cd /d C:\Users\regal\Desktop\VSCode\PRACTI~1\ESTUDI~1 && C:\cmake-3.31.0-rc1-windows-x86_64\bin\cmake.exe -E remove CMakeDoxyfile.in
-	cd /d C:\Users\regal\Desktop\VSCode\PRACTI~1\ESTUDI~1 && C:\cmake-3.31.0-rc1-windows-x86_64\bin\cmake.exe -E remove CMakeDoxygenDefaults.cmake
-	cd /d C:\Users\regal\Desktop\VSCode\PRACTI~1\ESTUDI~1 && C:\cmake-3.31.0-rc1-windows-x86_64\bin\cmake.exe -E remove libimage.a
-	cd /d C:\Users\regal\Desktop\VSCode\PRACTI~1\ESTUDI~1 && C:\cmake-3.31.0-rc1-windows-x86_64\bin\cmake.exe -E remove cmake_install.cmake
-	cd /d C:\Users\regal\Desktop\VSCode\PRACTI~1\ESTUDI~1 && C:\cmake-3.31.0-rc1-windows-x86_64\bin\cmake.exe -E remove_directory doc_doxygen
-	cd /d C:\Users\regal\Desktop\VSCode\PRACTI~1\ESTUDI~1 && C:\cmake-3.31.0-rc1-windows-x86_64\bin\cmake.exe -E remove_directory quienesquien_autogen
+	cd /d C:\Users\regal\Desktop\VSCode\TDA-Video\estudiante && C:\cmake-3.31.0-rc1-windows-x86_64\bin\cmake.exe -E remove_directory C:/Users/regal/Desktop/VSCode/TDA-Video/estudiante/build/zip
+	cd /d C:\Users\regal\Desktop\VSCode\TDA-Video\estudiante && C:\cmake-3.31.0-rc1-windows-x86_64\bin\cmake.exe -E remove_directory C:/Users/regal/Desktop/VSCode/TDA-Video/estudiante/build/bin
+	cd /d C:\Users\regal\Desktop\VSCode\TDA-Video\estudiante && C:\cmake-3.31.0-rc1-windows-x86_64\bin\cmake.exe -E remove_directory CMakeFiles
+	cd /d C:\Users\regal\Desktop\VSCode\TDA-Video\estudiante && C:\cmake-3.31.0-rc1-windows-x86_64\bin\cmake.exe -E remove CMakeCache.txt
+	cd /d C:\Users\regal\Desktop\VSCode\TDA-Video\estudiante && C:\cmake-3.31.0-rc1-windows-x86_64\bin\cmake.exe -E remove CMakeDoxyfile.in
+	cd /d C:\Users\regal\Desktop\VSCode\TDA-Video\estudiante && C:\cmake-3.31.0-rc1-windows-x86_64\bin\cmake.exe -E remove CMakeDoxygenDefaults.cmake
+	cd /d C:\Users\regal\Desktop\VSCode\TDA-Video\estudiante && C:\cmake-3.31.0-rc1-windows-x86_64\bin\cmake.exe -E remove libimage.a
+	cd /d C:\Users\regal\Desktop\VSCode\TDA-Video\estudiante && C:\cmake-3.31.0-rc1-windows-x86_64\bin\cmake.exe -E remove cmake_install.cmake
+	cd /d C:\Users\regal\Desktop\VSCode\TDA-Video\estudiante && C:\cmake-3.31.0-rc1-windows-x86_64\bin\cmake.exe -E remove_directory doc_doxygen
+	cd /d C:\Users\regal\Desktop\VSCode\TDA-Video\estudiante && C:\cmake-3.31.0-rc1-windows-x86_64\bin\cmake.exe -E remove_directory quienesquien_autogen
 
 CMakeFiles/mrproper.dir/codegen:
 .PHONY : CMakeFiles/mrproper.dir/codegen
@@ -93,6 +93,6 @@ CMakeFiles/mrproper.dir/clean:
 .PHONY : CMakeFiles/mrproper.dir/clean
 
 CMakeFiles/mrproper.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\regal\Desktop\VSCode\Practica 2 TDA video\estudiante" "C:\Users\regal\Desktop\VSCode\Practica 2 TDA video\estudiante" "C:\Users\regal\Desktop\VSCode\Practica 2 TDA video\estudiante\build" "C:\Users\regal\Desktop\VSCode\Practica 2 TDA video\estudiante\build" "C:\Users\regal\Desktop\VSCode\Practica 2 TDA video\estudiante\build\CMakeFiles\mrproper.dir\DependInfo.cmake" "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\regal\Desktop\VSCode\TDA-Video\estudiante C:\Users\regal\Desktop\VSCode\TDA-Video\estudiante C:\Users\regal\Desktop\VSCode\TDA-Video\estudiante\build C:\Users\regal\Desktop\VSCode\TDA-Video\estudiante\build C:\Users\regal\Desktop\VSCode\TDA-Video\estudiante\build\CMakeFiles\mrproper.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/mrproper.dir/depend
 

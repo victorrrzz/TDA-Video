@@ -1,6 +1,6 @@
 CMakeFiles/rebobinar.dir/src/rebobinar.cpp.obj: \
- C:\Users\regal\Desktop\VSCode\Practica\ 2\ TDA\ video\estudiante\src\rebobinar.cpp \
- C:/Users/regal/Desktop/VSCode/PRACTI~1/ESTUDI~1/./include/image.h \
+ C:\Users\regal\Desktop\VSCode\TDA-Video\estudiante\src\rebobinar.cpp \
+ C:/Users/regal/Desktop/VSCode/TDA-Video/estudiante/include/image.h \
  C:/msys64/ucrt64/include/c++/14.1.0/cstdlib \
  C:/msys64/ucrt64/include/c++/14.1.0/x86_64-w64-mingw32/bits/c++config.h \
  C:/msys64/ucrt64/include/c++/14.1.0/x86_64-w64-mingw32/bits/os_defines.h \
@@ -21,9 +21,9 @@ CMakeFiles/rebobinar.dir/src/rebobinar.cpp.obj: \
  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/mm_malloc.h \
  C:/msys64/ucrt64/include/errno.h \
  C:/msys64/ucrt64/include/c++/14.1.0/bits/std_abs.h \
- C:/Users/regal/Desktop/VSCode/PRACTI~1/ESTUDI~1/./include/imageIO.h \
- C:/Users/regal/Desktop/VSCode/PRACTI~1/ESTUDI~1/./include/video.h \
- C:/Users/regal/Desktop/VSCode/PRACTI~1/ESTUDI~1/./include/image.h \
+ C:/Users/regal/Desktop/VSCode/TDA-Video/estudiante/include/imageIO.h \
+ C:/Users/regal/Desktop/VSCode/TDA-Video/estudiante/include/video.h \
+ C:/Users/regal/Desktop/VSCode/TDA-Video/estudiante/include/image.h \
  C:/msys64/ucrt64/include/c++/14.1.0/vector \
  C:/msys64/ucrt64/include/c++/14.1.0/bits/requires_hosted.h \
  C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_algobase.h \

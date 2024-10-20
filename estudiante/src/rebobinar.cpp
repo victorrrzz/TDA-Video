@@ -4,9 +4,10 @@
 
 Video Rebobinar(const Video &V){
     Video aux;
-    for(int i=V.size(); i>1; i--)
+    for(int i=V.size()-1; i>=0; i--)
     {
-        aux.Insertar(V.size()-i,V[i]);
+        cout << "Insertando imagen: " << i; 
+        aux.Insertar(V.size()-i-1,V[i]);
     }
     return aux;
 }
@@ -20,14 +21,21 @@ int main(int argc, char * argv[]){
     string dir_salida = argv[2];
 
     Video v;
+    cout << "- - - - - leyendo video - - - - - " << endl;
     if(!v.LeerVideo(dir_entrada)){
         cerr << "Error en la lectura del video";
         return 1;
     }
-
+    cout << "- - - - - rebobinando video - - - - - " << endl;
     Video aux = Rebobinar(v);
+    cout << "- - - - - rebobinar terminado - - - - - " << endl;
+
+    cout << "vector size: " << v.size() << endl;
     for(int i=0; i<v.size(); i++)
     {
-
+        cout << "escribiendo video" << endl;
+        aux.EscribirVideo(dir_salida, "rewind-");
+        cout << "i: " << i << endl;
+        cout << "size: " << v.size() << endl;
     }
 }

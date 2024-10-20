@@ -53,10 +53,10 @@ RM = C:\cmake-3.31.0-rc1-windows-x86_64\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\regal\Desktop\VSCode\Practica 2 TDA video\estudiante"
+CMAKE_SOURCE_DIR = C:\Users\regal\Desktop\VSCode\TDA-Video\estudiante
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\regal\Desktop\VSCode\Practica 2 TDA video\estudiante\build"
+CMAKE_BINARY_DIR = C:\Users\regal\Desktop\VSCode\TDA-Video\estudiante\build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -94,14 +94,14 @@ clean: CMakeFiles/mrproper.dir/clean
 CMakeFiles/image.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\image.dir\build.make CMakeFiles/image.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\image.dir\build.make CMakeFiles/image.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\regal\Desktop\VSCode\Practica 2 TDA video\estudiante\build\CMakeFiles" --progress-num=2,3,4 "Built target image"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\regal\Desktop\VSCode\TDA-Video\estudiante\build\CMakeFiles --progress-num=2,3,4 "Built target image"
 .PHONY : CMakeFiles/image.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/image.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\regal\Desktop\VSCode\Practica 2 TDA video\estudiante\build\CMakeFiles" 3
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\regal\Desktop\VSCode\TDA-Video\estudiante\build\CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/image.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\regal\Desktop\VSCode\Practica 2 TDA video\estudiante\build\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\regal\Desktop\VSCode\TDA-Video\estudiante\build\CMakeFiles 0
 .PHONY : CMakeFiles/image.dir/rule
 
 # Convenience name for target.
@@ -125,14 +125,14 @@ CMakeFiles/image.dir/clean:
 CMakeFiles/rebobinar.dir/all: CMakeFiles/image.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\rebobinar.dir\build.make CMakeFiles/rebobinar.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\rebobinar.dir\build.make CMakeFiles/rebobinar.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\regal\Desktop\VSCode\Practica 2 TDA video\estudiante\build\CMakeFiles" --progress-num=8,9,10 "Built target rebobinar"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\regal\Desktop\VSCode\TDA-Video\estudiante\build\CMakeFiles --progress-num=8,9,10 "Built target rebobinar"
 .PHONY : CMakeFiles/rebobinar.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/rebobinar.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\regal\Desktop\VSCode\Practica 2 TDA video\estudiante\build\CMakeFiles" 6
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\regal\Desktop\VSCode\TDA-Video\estudiante\build\CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/rebobinar.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\regal\Desktop\VSCode\Practica 2 TDA video\estudiante\build\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\regal\Desktop\VSCode\TDA-Video\estudiante\build\CMakeFiles 0
 .PHONY : CMakeFiles/rebobinar.dir/rule
 
 # Convenience name for target.
@@ -156,14 +156,14 @@ CMakeFiles/rebobinar.dir/clean:
 CMakeFiles/morphing.dir/all: CMakeFiles/image.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\morphing.dir\build.make CMakeFiles/morphing.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\morphing.dir\build.make CMakeFiles/morphing.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\regal\Desktop\VSCode\Practica 2 TDA video\estudiante\build\CMakeFiles" --progress-num=5,6,7 "Built target morphing"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\regal\Desktop\VSCode\TDA-Video\estudiante\build\CMakeFiles --progress-num=5,6,7 "Built target morphing"
 .PHONY : CMakeFiles/morphing.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/morphing.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\regal\Desktop\VSCode\Practica 2 TDA video\estudiante\build\CMakeFiles" 6
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\regal\Desktop\VSCode\TDA-Video\estudiante\build\CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/morphing.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\regal\Desktop\VSCode\Practica 2 TDA video\estudiante\build\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\regal\Desktop\VSCode\TDA-Video\estudiante\build\CMakeFiles 0
 .PHONY : CMakeFiles/morphing.dir/rule
 
 # Convenience name for target.
@@ -187,14 +187,14 @@ CMakeFiles/morphing.dir/clean:
 CMakeFiles/doc_doxygen.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\doc_doxygen.dir\build.make CMakeFiles/doc_doxygen.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\doc_doxygen.dir\build.make CMakeFiles/doc_doxygen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\regal\Desktop\VSCode\Practica 2 TDA video\estudiante\build\CMakeFiles" --progress-num=1 "Built target doc_doxygen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\regal\Desktop\VSCode\TDA-Video\estudiante\build\CMakeFiles --progress-num=1 "Built target doc_doxygen"
 .PHONY : CMakeFiles/doc_doxygen.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/doc_doxygen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\regal\Desktop\VSCode\Practica 2 TDA video\estudiante\build\CMakeFiles" 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\regal\Desktop\VSCode\TDA-Video\estudiante\build\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/doc_doxygen.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\regal\Desktop\VSCode\Practica 2 TDA video\estudiante\build\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\regal\Desktop\VSCode\TDA-Video\estudiante\build\CMakeFiles 0
 .PHONY : CMakeFiles/doc_doxygen.dir/rule
 
 # Convenience name for target.
@@ -218,14 +218,14 @@ CMakeFiles/doc_doxygen.dir/clean:
 CMakeFiles/mrproper.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\mrproper.dir\build.make CMakeFiles/mrproper.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\mrproper.dir\build.make CMakeFiles/mrproper.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\regal\Desktop\VSCode\Practica 2 TDA video\estudiante\build\CMakeFiles" --progress-num= "Built target mrproper"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\regal\Desktop\VSCode\TDA-Video\estudiante\build\CMakeFiles --progress-num= "Built target mrproper"
 .PHONY : CMakeFiles/mrproper.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/mrproper.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\regal\Desktop\VSCode\Practica 2 TDA video\estudiante\build\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\regal\Desktop\VSCode\TDA-Video\estudiante\build\CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/mrproper.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\regal\Desktop\VSCode\Practica 2 TDA video\estudiante\build\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\regal\Desktop\VSCode\TDA-Video\estudiante\build\CMakeFiles 0
 .PHONY : CMakeFiles/mrproper.dir/rule
 
 # Convenience name for target.

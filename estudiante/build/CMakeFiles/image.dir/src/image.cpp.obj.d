@@ -1,5 +1,5 @@
 CMakeFiles/image.dir/src/image.cpp.obj: \
- C:\Users\regal\Desktop\VSCode\Practica\ 2\ TDA\ video\estudiante\src\image.cpp \
+ C:\Users\regal\Desktop\VSCode\TDA-Video\estudiante\src\image.cpp \
  C:/msys64/ucrt64/include/c++/14.1.0/cstring \
  C:/msys64/ucrt64/include/c++/14.1.0/bits/version.h \
  C:/msys64/ucrt64/include/c++/14.1.0/x86_64-w64-mingw32/bits/c++config.h \
@@ -144,6 +144,11 @@ CMakeFiles/image.dir/src/image.cpp.obj: \
  C:/msys64/ucrt64/include/c++/14.1.0/bits/ostream.tcc \
  C:/msys64/ucrt64/include/c++/14.1.0/istream \
  C:/msys64/ucrt64/include/c++/14.1.0/bits/istream.tcc \
- C:/Users/regal/Desktop/VSCode/PRACTI~1/ESTUDI~1/./include/image.h \
- C:/Users/regal/Desktop/VSCode/PRACTI~1/ESTUDI~1/./include/imageIO.h \
- C:/Users/regal/Desktop/VSCode/PRACTI~1/ESTUDI~1/./include/imageIO.h
+ C:/Users/regal/Desktop/VSCode/TDA-Video/estudiante/include/image.h \
+ C:/Users/regal/Desktop/VSCode/TDA-Video/estudiante/include/imageIO.h \
+ C:/Users/regal/Desktop/VSCode/TDA-Video/estudiante/include/imageIO.h \
+ C:/msys64/ucrt64/include/c++/14.1.0/fstream \
+ C:/msys64/ucrt64/include/c++/14.1.0/bits/codecvt.h \
+ C:/msys64/ucrt64/include/c++/14.1.0/x86_64-w64-mingw32/bits/basic_file.h \
+ C:/msys64/ucrt64/include/c++/14.1.0/x86_64-w64-mingw32/bits/c++io.h \
+ C:/msys64/ucrt64/include/c++/14.1.0/bits/fstream.tcc

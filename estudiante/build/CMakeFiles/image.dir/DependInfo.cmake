@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/regal/Desktop/VSCode/Practica 2 TDA video/estudiante/src/image.cpp" "CMakeFiles/image.dir/src/image.cpp.obj" "gcc" "CMakeFiles/image.dir/src/image.cpp.obj.d"
-  "C:/Users/regal/Desktop/VSCode/Practica 2 TDA video/estudiante/src/imageIO.cpp" "CMakeFiles/image.dir/src/imageIO.cpp.obj" "gcc" "CMakeFiles/image.dir/src/imageIO.cpp.obj.d"
+  "C:/Users/regal/Desktop/VSCode/TDA-Video/estudiante/src/image.cpp" "CMakeFiles/image.dir/src/image.cpp.obj" "gcc" "CMakeFiles/image.dir/src/image.cpp.obj.d"
+  "C:/Users/regal/Desktop/VSCode/TDA-Video/estudiante/src/imageIO.cpp" "CMakeFiles/image.dir/src/imageIO.cpp.obj" "gcc" "CMakeFiles/image.dir/src/imageIO.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

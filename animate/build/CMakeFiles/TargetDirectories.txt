@@ -1,0 +1,7 @@
+C:/Users/regal/Desktop/VSCode/TDA-Video/animate/build/CMakeFiles/graficos.dir
+C:/Users/regal/Desktop/VSCode/TDA-Video/animate/build/CMakeFiles/animate.dir
+C:/Users/regal/Desktop/VSCode/TDA-Video/animate/build/CMakeFiles/mrproper.dir
+C:/Users/regal/Desktop/VSCode/TDA-Video/animate/build/CMakeFiles/edit_cache.dir
+C:/Users/regal/Desktop/VSCode/TDA-Video/animate/build/CMakeFiles/rebuild_cache.dir
+C:/Users/regal/Desktop/VSCode/TDA-Video/animate/build/CMakeFiles/graficos_autogen.dir
+C:/Users/regal/Desktop/VSCode/TDA-Video/animate/build/CMakeFiles/animate_autogen.dir
