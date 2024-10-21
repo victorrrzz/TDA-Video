@@ -1,7 +1,0 @@
-C:/Users/regal/Desktop/VSCode/TDA-Video/estudiante/build/CMakeFiles/image.dir
-C:/Users/regal/Desktop/VSCode/TDA-Video/estudiante/build/CMakeFiles/rebobinar.dir
-C:/Users/regal/Desktop/VSCode/TDA-Video/estudiante/build/CMakeFiles/morphing.dir
-C:/Users/regal/Desktop/VSCode/TDA-Video/estudiante/build/CMakeFiles/doc_doxygen.dir
-C:/Users/regal/Desktop/VSCode/TDA-Video/estudiante/build/CMakeFiles/mrproper.dir
-C:/Users/regal/Desktop/VSCode/TDA-Video/estudiante/build/CMakeFiles/edit_cache.dir
-C:/Users/regal/Desktop/VSCode/TDA-Video/estudiante/build/CMakeFiles/rebuild_cache.dir

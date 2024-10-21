@@ -1,5 +1,6 @@
 #include "video.h"
 #include <filesystem>
+#include <algorithm>
 //COMPLETAR POR EL ESTUDIANTE
 
 void read_directory(const std::string& name, vector<string>& v)
@@ -20,6 +21,7 @@ void read_directory(const std::string& name, vector<string>& v)
 
     }
     closedir(dirp);
+    sort(v.begin(), v.end());
 }
 
 

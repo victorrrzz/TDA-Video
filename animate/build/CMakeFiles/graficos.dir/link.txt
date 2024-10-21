@@ -1,3 +1,0 @@
-C:\cmake-3.31.0-rc1-windows-x86_64\bin\cmake.exe -E rm -f CMakeFiles\graficos.dir/objects.a
-C:\msys64\ucrt64\bin\ar.exe qc CMakeFiles\graficos.dir/objects.a @CMakeFiles\graficos.dir\objects1.rsp
-C:\msys64\ucrt64\bin\c++.exe  -pthread -shared -o bin\libgraficos.dll -Wl,--out-implib,libgraficos.dll.a -Wl,--major-image-version,0,--minor-image-version,0 -Wl,--whole-archive CMakeFiles\graficos.dir/objects.a -Wl,--no-whole-archive @CMakeFiles\graficos.dir\linkLibs.rsp

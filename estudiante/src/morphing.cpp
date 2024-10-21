@@ -34,7 +34,7 @@ Video Morphing(const Image &I1,const Image &I2,int nframes){
 int main(int argc, char * argv[]){
 
     if(argc != 5){
-        cerr << "Numero incorrecto de argumentos. Debe introducir 4 argumentos.";
+        cerr << "Uso: <fich_orig> <fich_rdo> <dir_salida> <n_fotogramas> ";
         return 1;
     }
 

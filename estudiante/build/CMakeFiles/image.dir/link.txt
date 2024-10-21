@@ -1,2 +1,0 @@
-C:\msys64\ucrt64\bin\ar.exe qc libimage.a CMakeFiles/image.dir/src/image.cpp.obj CMakeFiles/image.dir/src/imageIO.cpp.obj
-C:\msys64\ucrt64\bin\ranlib.exe libimage.a

@@ -1,3 +1,0 @@
-C:\cmake-3.31.0-rc1-windows-x86_64\bin\cmake.exe -E rm -f CMakeFiles\morphing.dir/objects.a
-C:\msys64\ucrt64\bin\ar.exe qc CMakeFiles\morphing.dir/objects.a @CMakeFiles\morphing.dir\objects1.rsp
-C:\msys64\ucrt64\bin\c++.exe -Wl,--whole-archive CMakeFiles\morphing.dir/objects.a -Wl,--no-whole-archive -o bin\morphing.exe -Wl,--out-implib,libmorphing.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\morphing.dir\linkLibs.rsp

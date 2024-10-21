@@ -6,7 +6,7 @@ Video Rebobinar(const Video &V){
     Video aux;
     for(int i=V.size()-1; i>=0; i--)
     {
-        cout << "Insertando imagen: " << i; 
+        cout << "Insertando imagen: " << i << endl; 
         aux.Insertar(V.size()-i-1,V[i]);
     }
     return aux;
@@ -33,9 +33,7 @@ int main(int argc, char * argv[]){
     cout << "vector size: " << v.size() << endl;
     for(int i=0; i<v.size(); i++)
     {
-        cout << "escribiendo video" << endl;
+        cout << "Escribiendo frame: " << i << endl;
         aux.EscribirVideo(dir_salida, "rewind-");
-        cout << "i: " << i << endl;
-        cout << "size: " << v.size() << endl;
     }
 }
