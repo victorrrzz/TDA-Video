@@ -7,14 +7,17 @@ Video Morphing(const Image &I1,const Image &I2,int nframes){
     Video aux;
     if(I1.get_cols()==I2.get_cols() && I1.get_rows()==I2.get_rows())
     {
+        int row = I1.get_rows();
+        int col = I1.get_cols();
+
         for(int i=0; i<nframes; i++)
         {
             float t = (i/ (float)nframes);
             Image Iaux(I1.get_rows(),I1.get_cols());
 
-            for(int j=0; j< I1.get_rows(); j++)
+            for(int j=0; j < row; j++)
             {
-                for(int k=0; k<I1.get_cols(); k++)
+                for(int k=0; k < col; k++)
                 {
                     int index = k + j*I1.get_cols();
                     pixel morphed_pixel=I1.get_pixel(index)*(1-t)+I2.get_pixel(index)*t;
