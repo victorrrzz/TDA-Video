@@ -56,7 +56,9 @@ int main(int argc, char * argv[]){
 
     for(int i=0; i<num_fotogramas; i++)
     {
-        std::string nombre_fotograma = string(directorio_salida) + "/fotograma_" + std::to_string(i) + ".pgm";
+        ostringstream out;
+        out << string(directorio_salida)  << "/fotograma_" << setw(3)  << setfill('0') << i << ".pgm";
+        std::string nombre_fotograma = out.str();
         const char* nombre_fotograma_cstr = nombre_fotograma.c_str();
 
         if(!aux[i].Save(nombre_fotograma_cstr)){

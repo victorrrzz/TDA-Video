@@ -1,6 +1,7 @@
 #include "video.h"
 #include <filesystem>
 #include <algorithm>
+#include <iomanip>
 //COMPLETAR POR EL ESTUDIANTE
 
 void read_directory(const std::string& name, vector<string>& v)
@@ -116,7 +117,10 @@ bool Video::EscribirVideo(const string & path, const string &prefijo)const{
 
     for(int i=0; i<seq.size(); i++)
     {
-        string out_path = path + prefijo + to_string(i) + ".pgm";
+        ostringstream out;
+        out << path << prefijo << setw(3)  << setfill('0') << i << ".pgm";
+        string out_path = out.str();
+        cout << "final out path is:" << out_path << endl;
         if(!seq[i].Save((out_path.c_str()))) {
             cout << "Error escribiendo el video" << out_path << endl;
             exito = false;
