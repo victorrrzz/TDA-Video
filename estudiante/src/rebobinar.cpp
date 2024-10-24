@@ -34,6 +34,11 @@ int main(int argc, char * argv[]){
     for(int i=0; i<v.size(); i++)
     {
         cout << "Escribiendo frame: " << i << endl;
-        aux.EscribirVideo(dir_salida, "rewind-");
     }
+       if(!aux.EscribirVideo(dir_salida, "rewind-"))
+       {
+           cerr << "Error escribiendo el video rebobinado" << endl;
+           return 1;
+       }
+    cout << "Escritura completada" << endl;
 }
