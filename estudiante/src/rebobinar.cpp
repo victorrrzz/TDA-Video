@@ -2,6 +2,12 @@
 #include "video.h"
 #include <iostream>
 
+/**
+    * @brief Rebobina un video revirtiendo el orden de sus frames
+    * @param V Referencia constante al video que se va a rebobinar
+    * @return Nuevo video con los fotogramas en orden invertido
+*/
+
 Video Rebobinar(const Video &V){
     Video aux;
     for(int i=V.size()-1; i>=0; i--)
@@ -11,7 +17,13 @@ Video Rebobinar(const Video &V){
     }
     return aux;
 }
-
+/**
+    * @brief Funcion principal para rebobinar un video y almacenarlo en un directorio
+    * @param argc Numero de argumentos que recibe la funcion
+    * @param argv El array de argumentos que recibe la funcion
+    * @pre El numero de argumentos debe de ser 3
+    * @return 0 si exito, 1 si fallo
+*/
 int main(int argc, char * argv[]){
     if(argc!=3){
         cerr << "Numero de argumentos incorrectos. Debe introducir dos argumentos";
