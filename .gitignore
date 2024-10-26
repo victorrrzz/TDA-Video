@@ -3,3 +3,5 @@
 .\.vscode\
 .\estudiante\build\
 .\animate\build\
+/estudiante/build
+/animate/build/
