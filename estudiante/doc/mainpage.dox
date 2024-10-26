@@ -24,7 +24,7 @@ mayor parte de la sintaxis de Doxygen para comentar código en su
 
 # Introducción
 
-A RELLENAR POR EL ESTUDIANTE
+Esta practica consiste en la creación de un TDA Video, que consiste en una secuencia de imagenes, que sera manipulada por distintos metodos. 
 
 # Ejecutables
 
@@ -37,6 +37,19 @@ Calcula el negativo de una imagen
 @param "<FichImagenOriginal>" Imagen PGM a la que se va a calcular
 @param <FichImagenDestino> Imagen PGM resultado de calcular el negativo
 
+## Rebobinar:
 
+Rebobina un video ordenando sus frames desde el ultimo hacia el primero en un nuevo video, que es lo que devuelve. 
+> rebobinar \<FichVideoOriginal\> \<FichVideoDestino\>
+@param "<FichVideoOriginal>" Fichero donde se encuentran las imagenes del video a rebobinar
+@param "<FichVideoDestino>" Fichero donde se va a escribir el video rebobinado
+
+## Morphing:
+Crea un video cuyo contenido es una transicion suave de una imagen a otra, o un cambio de una imagen a otra.
+> morphing \<FichImagen1\> \<FichImagen2\> \<FichVideoDestino\> \<NumFotogramas\>
+@param "<FichImagen1>" Imagen PGM que va a cambiar
+@param "<FichImagen2>" Imagen PGM a la que se va a cambiar
+@param "<FichVideoDestino>" Fichero donde se va a escribir el video del morphing
+@param "<NumFotogramas>" Numero de pasos para realizar la transformacion
 
 */
