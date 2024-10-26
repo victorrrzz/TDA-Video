@@ -2,38 +2,16 @@
 #include "video.h"
 #include <iostream>
 #include <cassert>
-#include <vector>
 
-const int n_puntos = 10;
-
-struct Punto2D
-{
-    float x,y;
-};
-
-Punto2D InterpolarPunto(const Punto2D &inicio, const Punto2D &fin, float t)
-{
-    // Punto intermedio
-    Punto2D i;
-    i.x = (1 - t) * inicio.x + t * fin.x;
-    i.y = (1 - t) * inicio.x + t * fin.y;
-    
-    return i;
-
-}
-
-vector<Punto2D> GenPuntos(int n, int fil, int col)
-{
-    vector<Punto2D> out(n);
-    for (int i = 0; i < n; i++)
-    {
-        out[i].x = rand() % col;
-        out[i].y = rand() % fil;
-    }
-    
-    return out;
-}
-
+ /**
+   * @brief Transiciona dos imágenes en un vídeo
+   * @param I1 Referencia al objeto imagen original
+   * @param I2 Referencia al objeto imagen destino
+   * @param nframes Número de fotogramas del vídeo resultante
+   * @pre nframes debe de ser mayor que 0
+   * @post El video creado tiene nframes imágenes
+   * @return Referencia al objeto video creado 
+*/
 
 Video Morphing(const Image &I1,const Image &I2,int nframes){
     Video aux;
@@ -42,35 +20,19 @@ Video Morphing(const Image &I1,const Image &I2,int nframes){
         int row = I1.get_rows();
         int col = I1.get_cols();
 
-        vector<Punto2D> p_origen = GenPuntos(n_puntos, row, col);
-        vector<Punto2D> p_destino = GenPuntos(n_puntos, row, col);
-
         for(int i=0; i<nframes; i++)
         {
             float t = (i/ (float)nframes);
-            Image Iaux(row, col);
+            Image Iaux(I1.get_rows(),I1.get_cols());
 
-            for(int j = 0; j < row; j++)
+            for(int j=0; j < row; j++)
             {
-                for (int k = 0; k < col; k++)
+                for(int k=0; k < col; k++)
                 {
-                    int index = k + j * col;
-                    pixel morphed_pixel = I1.get_pixel(index) * (1 - t) + I2.get_pixel(index) * t;
-                    Iaux.set_pixel(j, k, morphed_pixel);
-                }
-            }
+                    int index = k + j*I1.get_cols();
+                    pixel morphed_pixel=I1.get_pixel(index)*(1-t)+I2.get_pixel(index)*t;
 
-            for (int p = 0; p < n_puntos; p++)
-            {
-                Punto2D i = InterpolarPunto(p_origen[p], p_destino[p], t);
-                int x = (int) i.x;
-                int y = (int) i.y;
-
-                if (x >= 0 && x < col && y >= 0 && y < row)
-                {
-                    int index = x + y * col;
-                    pixel morphed_pixel = I1.get_pixel(index) * (1 - t) + I2.get_pixel(index) * t;
-                    Iaux.set_pixel(y, x, morphed_pixel);
+                    Iaux.set_pixel(j,k,morphed_pixel);
 
                 }
             }
@@ -81,6 +43,13 @@ Video Morphing(const Image &I1,const Image &I2,int nframes){
         exit(1);
     }
 }
+
+ /**
+   * @brief Carga las imágenes, crea el vídeo y lo guarda en el directorio
+   * @param argv Fichero de origen, fichero destino, directorio de salida, número de fotogramas
+   * @pre Las imágenes deben de existir y ser .pgm, directorio de salida debe existir, nfotogramas > 0
+   * @return 0 si ejecución correcta, 1 si no
+*/
 
 int main(int argc, char * argv[]){
 
