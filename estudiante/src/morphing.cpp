@@ -3,6 +3,16 @@
 #include <iostream>
 #include <cassert>
 
+ /**
+   * @brief Transiciona dos imágenes en un vídeo
+   * @param I1 Referencia al objeto imagen original
+   * @param I2 Referencia al objeto imagen destino
+   * @param nframes Número de fotogramas del vídeo resultante
+   * @pre nframes debe de ser mayor que 0
+   * @post El video creado tiene nframes imágenes
+   * @return Referencia al objeto video creado 
+*/
+
 Video Morphing(const Image &I1,const Image &I2,int nframes){
     Video aux;
     if(I1.get_cols()==I2.get_cols() && I1.get_rows()==I2.get_rows())
@@ -33,6 +43,13 @@ Video Morphing(const Image &I1,const Image &I2,int nframes){
         exit(1);
     }
 }
+
+ /**
+   * @brief Carga las imágenes, crea el vídeo y lo guarda en el directorio
+   * @param argv Fichero de origen, fichero destino, directorio de salida, número de fotogramas
+   * @pre Las imágenes deben de existir y ser .pgm, directorio de salida debe existir, nfotogramas > 0
+   * @return 0 si ejecución correcta, 1 si no
+*/
 
 int main(int argc, char * argv[]){
 
