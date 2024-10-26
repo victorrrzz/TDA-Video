@@ -19,6 +19,7 @@ Video Rebobinar(const Video &V){
 }
 /**
     * @brief Funcion principal para rebobinar un video y almacenarlo en un directorio
+    * @note  El programa debe de recibir el directorio donde se encuentran los fotogramas del video de entrada y el directorio donde se escribe el video rebobinado
     * @param argc Numero de argumentos que recibe la funcion
     * @param argv El array de argumentos que recibe la funcion
     * @pre El numero de argumentos debe de ser 3
