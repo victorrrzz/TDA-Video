@@ -5,12 +5,21 @@
 #include <vector>
 
 const int n_puntos = 10;
-
+/**
+    * @brief Estructura que representa un punto de dos dimensiones
+    */
 struct Punto2D
 {
     float x,y;
 };
-
+/**
+    * @brief Interpola entre dos puntos de dos dimensiones
+    * @param inicio Referencia constante al punto de inicio de la interpolacion
+    * @param fin Referencia constante al punto final de la interpolacion
+    * @param t El factor de interpolacion
+    * @pre t debe de ser mayor o igual que 0 y menos o igual que 1
+    * @return Punto2D interpolado
+*/
 Punto2D InterpolarPunto(const Punto2D &inicio, const Punto2D &fin, float t)
 {
     // Punto intermedio
@@ -21,7 +30,13 @@ Punto2D InterpolarPunto(const Punto2D &inicio, const Punto2D &fin, float t)
     return i;
 
 }
-
+/**
+    * @brief Genera un vector de puntos 2D aleatorios
+    * @param n Numero de puntos a generar
+    * @param fil Numero de filas para el espacio de coordenadas
+    * @param col Numero de columnas para el espacio de coordenadas
+    * @return Vector de puntos 2D aleatoriamente generados dentro de los parametros especificados
+*/
 vector<Punto2D> GenPuntos(int n, int fil, int col)
 {
     vector<Punto2D> out(n);
@@ -34,7 +49,13 @@ vector<Punto2D> GenPuntos(int n, int fil, int col)
     return out;
 }
 
-
+/**
+    * @brief Crea un video de transformacion entre dos imagenes
+    * @param I1 Referencia constante a la imagen de inicio de la transformacion
+    * @param I2 Referencia constante a la imagen final de la transformacion
+    * @param nframes Numero de frames a generar en el video de la transformacion
+    * @return Video de la transformacion
+*/
 Video Morphing(const Image &I1,const Image &I2,int nframes){
     Video aux;
     if(I1.get_cols()==I2.get_cols() && I1.get_rows()==I2.get_rows())
@@ -81,7 +102,14 @@ Video Morphing(const Image &I1,const Image &I2,int nframes){
         exit(1);
     }
 }
-
+/**
+    * @brief Funcion principal que ejecuta el morphing entre dos imagenes y guarda el video resultado
+    * @note El programa debe de recibir el fichero donde se encuentra la imagen inicial, el fichero donde se encuentra la imagen final, el directorio donde se debe de almacenar el video creado, y un numero de pasos para realizar la transformacion
+    * @param argc Numero de argumentos dados a la funcion
+    * @param argv array de argumentos dados a la funcion
+    * @pre argc debe de ser 5
+    * @return 0 si exito, 1 si falla
+*/
 int main(int argc, char * argv[]){
 
     if(argc != 5){
